@@ -33,20 +33,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019F308F189E98B6007210C8 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019F308F189E98B6007210C8 /* Hypnosister-Bronze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypnosister-Bronze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019F3092189E98B6007210C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		019F3094189E98B6007210C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		019F3096189E98B6007210C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		019F309A189E98B6007210C8 /* Hypnosister-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hypnosister-Info.plist"; sourceTree = "<group>"; };
+		019F309A189E98B6007210C8 /* Hypnosister-Bronze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hypnosister-Bronze-Info.plist"; sourceTree = "<group>"; };
 		019F309C189E98B6007210C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		019F309E189E98B6007210C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		019F30A0189E98B6007210C8 /* Hypnosister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnosister-Prefix.pch"; sourceTree = "<group>"; };
+		019F30A0189E98B6007210C8 /* Hypnosister-Bronze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypnosister-Bronze-Prefix.pch"; sourceTree = "<group>"; };
 		019F30A1189E98B6007210C8 /* HypnosisterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HypnosisterAppDelegate.h; sourceTree = "<group>"; };
 		019F30A2189E98B6007210C8 /* HypnosisterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterAppDelegate.m; sourceTree = "<group>"; };
 		019F30A4189E98B6007210C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		019F30AA189E98B6007210C8 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019F30AA189E98B6007210C8 /* Hypnosister-BronzeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hypnosister-BronzeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019F30AB189E98B6007210C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		019F30B3189E98B6007210C8 /* HypnosisterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisterTests-Info.plist"; sourceTree = "<group>"; };
+		019F30B3189E98B6007210C8 /* Hypnosister BronzeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hypnosister BronzeTests-Info.plist"; sourceTree = "<group>"; };
 		019F30B5189E98B6007210C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		019F30B7189E98B6007210C8 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
 		019F30C1189EB408007210C8 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		019F3090189E98B6007210C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				019F308F189E98B6007210C8 /* Hypnosister.app */,
-				019F30AA189E98B6007210C8 /* HypnosisterTests.xctest */,
+				019F308F189E98B6007210C8 /* Hypnosister-Bronze.app */,
+				019F30AA189E98B6007210C8 /* Hypnosister-BronzeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,10 +123,10 @@
 		019F3099189E98B6007210C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				019F309A189E98B6007210C8 /* Hypnosister-Info.plist */,
+				019F309A189E98B6007210C8 /* Hypnosister-Bronze-Info.plist */,
 				019F309B189E98B6007210C8 /* InfoPlist.strings */,
 				019F309E189E98B6007210C8 /* main.m */,
-				019F30A0189E98B6007210C8 /* Hypnosister-Prefix.pch */,
+				019F30A0189E98B6007210C8 /* Hypnosister-Bronze-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 		019F30B2189E98B6007210C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				019F30B3189E98B6007210C8 /* HypnosisterTests-Info.plist */,
+				019F30B3189E98B6007210C8 /* Hypnosister BronzeTests-Info.plist */,
 				019F30B4189E98B6007210C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		019F308E189E98B6007210C8 /* Hypnosister */ = {
+		019F308E189E98B6007210C8 /* Hypnosister-Bronze */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 019F30BB189E98B6007210C8 /* Build configuration list for PBXNativeTarget "Hypnosister" */;
+			buildConfigurationList = 019F30BB189E98B6007210C8 /* Build configuration list for PBXNativeTarget "Hypnosister-Bronze" */;
 			buildPhases = (
 				019F308B189E98B6007210C8 /* Sources */,
 				019F308C189E98B6007210C8 /* Frameworks */,
@@ -164,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = Hypnosister;
+			name = "Hypnosister-Bronze";
 			productName = Hypnosister;
-			productReference = 019F308F189E98B6007210C8 /* Hypnosister.app */;
+			productReference = 019F308F189E98B6007210C8 /* Hypnosister-Bronze.app */;
 			productType = "com.apple.product-type.application";
 		};
-		019F30A9189E98B6007210C8 /* HypnosisterTests */ = {
+		019F30A9189E98B6007210C8 /* Hypnosister-BronzeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 019F30BE189E98B6007210C8 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */;
+			buildConfigurationList = 019F30BE189E98B6007210C8 /* Build configuration list for PBXNativeTarget "Hypnosister-BronzeTests" */;
 			buildPhases = (
 				019F30A6189E98B6007210C8 /* Sources */,
 				019F30A7189E98B6007210C8 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				019F30B0189E98B6007210C8 /* PBXTargetDependency */,
 			);
-			name = HypnosisterTests;
+			name = "Hypnosister-BronzeTests";
 			productName = HypnosisterTests;
-			productReference = 019F30AA189E98B6007210C8 /* HypnosisterTests.xctest */;
+			productReference = 019F30AA189E98B6007210C8 /* Hypnosister-BronzeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 019F308A189E98B6007210C8 /* Build configuration list for PBXProject "Hypnosister" */;
+			buildConfigurationList = 019F308A189E98B6007210C8 /* Build configuration list for PBXProject "Hypnosister-Bronze" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				019F308E189E98B6007210C8 /* Hypnosister */,
-				019F30A9189E98B6007210C8 /* HypnosisterTests */,
+				019F308E189E98B6007210C8 /* Hypnosister-Bronze */,
+				019F30A9189E98B6007210C8 /* Hypnosister-BronzeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +264,7 @@
 /* Begin PBXTargetDependency section */
 		019F30B0189E98B6007210C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 019F308E189E98B6007210C8 /* Hypnosister */;
+			target = 019F308E189E98B6007210C8 /* Hypnosister-Bronze */;
 			targetProxy = 019F30AF189E98B6007210C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,9 +367,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/Hypnosister-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Bronze-Prefix.pch";
+				INFOPLIST_FILE = "Hypnosister/Hypnosister-Bronze-Info.plist";
+				PRODUCT_NAME = "Hypnosister-Bronze";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -380,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
-				INFOPLIST_FILE = "Hypnosister/Hypnosister-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Bronze-Prefix.pch";
+				INFOPLIST_FILE = "Hypnosister/Hypnosister-Bronze-Info.plist";
+				PRODUCT_NAME = "Hypnosister-Bronze";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,8 +403,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HypnosisterTests/HypnosisterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HypnosisterTests/Hypnosister BronzeTests-Info.plist";
+				PRODUCT_NAME = "Hypnosister-BronzeTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -422,8 +422,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
-				INFOPLIST_FILE = "HypnosisterTests/HypnosisterTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HypnosisterTests/Hypnosister BronzeTests-Info.plist";
+				PRODUCT_NAME = "Hypnosister-BronzeTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -432,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		019F308A189E98B6007210C8 /* Build configuration list for PBXProject "Hypnosister" */ = {
+		019F308A189E98B6007210C8 /* Build configuration list for PBXProject "Hypnosister-Bronze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				019F30B9189E98B6007210C8 /* Debug */,
@@ -441,21 +441,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		019F30BB189E98B6007210C8 /* Build configuration list for PBXNativeTarget "Hypnosister" */ = {
+		019F30BB189E98B6007210C8 /* Build configuration list for PBXNativeTarget "Hypnosister-Bronze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				019F30BC189E98B6007210C8 /* Debug */,
 				019F30BD189E98B6007210C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		019F30BE189E98B6007210C8 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
+		019F30BE189E98B6007210C8 /* Build configuration list for PBXNativeTarget "Hypnosister-BronzeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				019F30BF189E98B6007210C8 /* Debug */,
 				019F30C0189E98B6007210C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
