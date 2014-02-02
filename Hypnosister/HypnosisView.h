@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HypnosisView : NSObject
+//@interface HypnosisView : NSObject
+@interface HypnosisView : UIView
+
+@property (nonatomic, strong) UIColor *circleColor;
+
 
 @end

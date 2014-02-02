@@ -7,6 +7,8 @@
 //
 
 #import "HypnosisterAppDelegate.h"
+#import "HypnosisView.h"
+
 
 @implementation HypnosisterAppDelegate
 
@@ -14,10 +16,99 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+//    [[UIApplication sharedApplication] setStatusBarHidden:YES
+//                                            withAnimation:UIStatusBarAnimationFade];
+    
+    
+    
+    
+    
+//    CGRect viewFrame = CGRectMake(160,240,100,150);
+    //
+    //    HypnosisView *view = [[HypnosisView alloc] initWithFrame:viewFrame];
+    //[view setBackgroundColor:[UIColor redColor]];
+    //HypnosisView *view = [[HypnosisView alloc] initWithFrame:[[self window] bounds]];
+     
+     //[[self window] addSubview:view];
+    
+    
+    
+    CGRect screenRect = [[self window] bounds];
+    
+    // create a UIScrollView to have the size of the window, matching its size
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
+    [[self window] addSubview:scrollView];
+    
+    
+    // create the HypnosisView with a frame that is twice the size of the screen
+    CGRect bigRect = screenRect;
+//    bigRect.size.width *= 2.0;
+    //bigRect.size.height *= 2.0;
+    
+    
+    //HypnosisView *view = [[HypnosisView alloc] initWithFrame:bigRect];
+    //HypnosisView *view = [[HypnosisView alloc] initWithFrame:screenRect];
+    view =[[HypnosisView alloc] initWithFrame:screenRect];
+    
+    
+    // add the HypnosisView as a subview of the scroll view instead of the window
+    [scrollView addSubview:view];
+    
+    // move the rectangle for the other HypnosisView to the right, just off
+    // the screen
+    screenRect.origin.x = screenRect.size.width;
+    
+//    // Create a second View
+//    HypnosisView *anotherView = [[HypnosisView alloc] initWithFrame:screenRect];
+//    [scrollView setPagingEnabled:YES];
+//    [scrollView addSubview:anotherView];
+    
+    
+    [scrollView setMinimumZoomScale:1.0];
+    [scrollView setMaximumZoomScale:5.0];
+    
+    // this will give a warning, ignore it for now
+    [scrollView setDelegate:self];
+    
+    
+    // Tell the scrollView how big its virtual world is
+    [scrollView setContentSize:bigRect.size];
+    
+    
+     
+//     CGRect anotherFrame = CGRectMake(20,30,50,50);
+//     
+//     HypnosisView *anotherView = [[HypnosisView alloc] initWithFrame:anotherFrame];
+//     //[anotherView setBackgroundColor:[UIColor blueColor]];
+//     
+//     //[[self window] addSubview:anotherView];
+//    [view addSubview:anotherView];
+    
+    
+    BOOL success = [view becomeFirstResponder];
+    if(success)
+    {
+        NSLog(@"HypnosisView will become the first responder");
+    }
+    else{
+        NSLog(@"Could not become first responder");
+    }
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return view;
+}
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
